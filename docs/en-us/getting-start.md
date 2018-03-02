@@ -2,21 +2,21 @@
 
 ### Project Structure
 
-- lib / / package generated after the build, use for other plugins
-- docs // document directory
-- src // source
-  - components // component directory
-    - Common // common components
-    - Button
-    - Chekbox
-    - ...
-  - theme // theme directory
-    - color // color directory
-      - colorPalette.js / / color swatch generator functions
-      - colors.js // default theme color
-      - index.js // Component style variable configuration
-  - demo.js // Sample presentation file for debugging and viewing in Sketch
-  - manifest.json // Sketch plugin configuration file
+- lib `// package generated after the build, use for other plugins`
+- docs `// document directory`
+- src `// source`
+  - components `// component directory`
+    - Common `// common components`
+    - Button
+    - Chekbox
+    - ...
+  - theme `// theme directory`
+    - color `// color directory`
+    - colorPalette.js `// color swatch generator functions`
+    - colors.js `// default theme color`
+    - index.js `// Component style variable configuration`
+  - demo.js `// Sample presentation file for debugging and viewing in Sketch`
+  - manifest.json `// Sketch plugin configuration file`
 - .babelrc
 - .eslintignore
 - .eslintrc
@@ -28,7 +28,7 @@
 
 ### Schematic
 
-! [structure] (https://gw.alipayobjects.com/zos/rmsportal/LtwAZWicJsrfoNQjoyGq.svg)
+! [structure](https://gw.alipayobjects.com/zos/rmsportal/LtwAZWicJsrfoNQjoyGq.svg)
 
 ### basic concept
 
@@ -42,7 +42,7 @@ At present, we have realized the most basic layout components Grid, as well as c
 
 After installing the `antd-sketchapp 'dependency package, you only need to write it into your plugin as follows:
 
-`` `jsx
+```jsx
 import React from 'react';
 import {View} from 'react-sketchapp';
 import {Button} from 'antd-sketchapp';
@@ -65,11 +65,11 @@ const renderButton = (name, Component) => {
 
 
 export const renderButton = renderButton;
-`` `
+```
 
 Then specify the command in `manifest.json`, you can click on the command to create the Button.
 
-`` `json
+```json
 {
   "name": "antd-sketchapp",
   "compatibleVersion": 3,
@@ -81,9 +81,9 @@ Then specify the command in `manifest.json`, you can click on the command to cre
       "script": "./demo.js",
       "handler": "renderButton"
     },
-`` `
+```
 
 ### Learn more plugins development
 
-- [sketch plug-in community] (http://sketchplugins.com/)
-- [sketch developer] (http://developer.sketchapp.com/)
+- [sketch plug-in community](http://sketchplugins.com/)
+- [sketch developer](http://developer.sketchapp.com/)
