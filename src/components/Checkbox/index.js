@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, StyleSheet } from 'react-sketchapp-compatible';
+import { View, StyleSheet } from 'react-sketchapp';
 
 import Check from './Check';
 import Indeterminate from './Indeterminate';

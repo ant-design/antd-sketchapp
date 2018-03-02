@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { View, StyleSheet } from 'react-sketchapp-compatible';
+import { View, StyleSheet } from 'react-sketchapp';
 
 import { col } from './styleSheets';
 

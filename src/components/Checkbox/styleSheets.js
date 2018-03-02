@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-sketchapp-compatible';
+import { StyleSheet } from 'react-sketchapp';
 import { checkbox } from '../../theme';
 
 export const defaultStyle = StyleSheet.create({

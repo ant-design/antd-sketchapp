@@ -6,7 +6,7 @@
   </a>
 </p>
 
-# Ant Design for React Sketch.app
+# antd-sketchapp
 
 [![](https://img.shields.io/travis/ant-design/antd-sketchapp.svg?style=flat-square)](https://travis-ci.org/ant-design/antd-sketchapp)
 [![Codecov](https://img.shields.io/codecov/c/github/ant-design/antd-sketchapp/master.svg?style=flat-square)](https://codecov.io/gh/ant-design/antd-sketchapp/branch/master)
@@ -17,9 +17,9 @@
 
 ## What is it?
 
-[React Sketch.app](https://github.com/airbnb/react-sketchapp) is a awesome solution whitch can use React in Sketch, and antd-sketchapp is a Ant Design UI library for React Sketch.app.
+[react-sketchapp](https://github.com/airbnb/react-sketchapp) is an awesome solution whitch can render React components to Sketch, and antd-sketchapp is an React-sketchapp-based implementation of [ant-design](https://github.com/ant-design/ant-design).
 
-![table](https://gw.alipayobjects.com/zos/rmsportal/aCthUVWUTQEmhdzamVLB.png)
+![Demo](https://lark.alipay.com/api/filetransfer?url=https%3A%2F%2Fprivate-alipayobjects.alipay.com%2Falipay-rmsdeploy-image%2Fskylark%2Fgif%2F6cdafaec-626a-49d0-81da-7e3e337c8fa8.gif)
 
 ## Install
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text } from 'react-sketchapp-compatible';
+import { View, Text } from 'react-sketchapp';
 import Table from '../index';
 import Br from '../../Common/Br';
 import defaultConfig from '../mock.json';

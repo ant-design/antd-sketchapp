@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-sketchapp-compatible';
+import { StyleSheet } from 'react-sketchapp';
 import { table, colors } from '../../theme';
 
 export const BORDER_RADIUS = table.borderRadius;

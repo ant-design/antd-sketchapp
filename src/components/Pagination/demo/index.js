@@ -1,5 +1,5 @@
 import React from 'react';
-import { View } from 'react-sketchapp-compatible';
+import { View } from 'react-sketchapp';
 import Pagination from '../index';
 import Br from '../../Common/Br';
 

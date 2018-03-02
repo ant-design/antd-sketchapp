@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-sketchapp-compatible';
+import { StyleSheet } from 'react-sketchapp';
 import { pagination, colors } from '../../theme';
 
 export const paginationStyle = StyleSheet.create({

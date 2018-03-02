@@ -55,7 +55,7 @@
     "less": "^2.7.3",
     "prop-types": "^15.5.8",
     "react": "^15.4.2",
-    "react-sketchapp-compatible": "^1.1.1",
+    "react-sketchapp": "^1.0.0",
     "react-test-renderer": "^15.4.2",
     "sketchapp-json-plugin": "^0.1.2",
     "tinycolor2": "^1.4.1"

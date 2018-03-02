@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View, StyleSheet } from 'react-sketchapp-compatible';
+import { Text, View, StyleSheet } from 'react-sketchapp';
 import Icon from '../Icon';
 import theme from '../../theme';
 

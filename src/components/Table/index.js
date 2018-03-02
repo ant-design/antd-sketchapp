@@ -1,5 +1,5 @@
 import React from 'react';
-import { View } from 'react-sketchapp-compatible';
+import { View } from 'react-sketchapp';
 import Table from './Table';
 
 const Wrapper = props => (

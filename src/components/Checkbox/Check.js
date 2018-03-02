@@ -1,5 +1,5 @@
 import React from 'react';
-import { Svg } from 'react-sketchapp-compatible';
+import { Svg } from 'react-sketchapp';
 
 const { G, Path } = Svg;
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, Artboard } from 'react-sketchapp-compatible';
+import { render, Artboard } from 'react-sketchapp';
 
 import ButtonDemo from './components/Button/demo';
 import CheckboxDemo from './components/Checkbox/demo';

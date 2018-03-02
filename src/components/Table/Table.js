@@ -1,7 +1,7 @@
 /* @flow */
 import deepmerge from 'deepmerge';
 import React from 'react';
-import { Text, View, StyleSheet } from 'react-sketchapp-compatible';
+import { Text, View, StyleSheet } from 'react-sketchapp';
 import Thead from './Thead';
 import Tbody from './Tbody';
 import Expansion from './Expansion';

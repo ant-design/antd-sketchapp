@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-sketchapp-compatible';
+import { StyleSheet } from 'react-sketchapp';
 import { button, colors } from '../../theme';
 
 export const defaultStyle = StyleSheet.create({

@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text } from 'react-sketchapp-compatible';
+import { View, Text } from 'react-sketchapp';
 import { Row, Col } from '../index';
 
 const Block = ({ light = true, text = 'block' }) => (
