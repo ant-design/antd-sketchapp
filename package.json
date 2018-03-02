@@ -1,6 +1,6 @@
 {
   "name": "antd-sketchapp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "sketch": ">=3.0"
   },
