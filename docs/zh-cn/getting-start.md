@@ -85,5 +85,5 @@ export const renderButton = renderButton;
 
 ### 了解更多插件开发
 
-[sketch 插件社区](http://sketchplugins.com/)
-[sketch developer](http://developer.sketchapp.com/)
+- [sketch 插件社区](http://sketchplugins.com/)
+- [sketch developer](http://developer.sketchapp.com/)

@@ -1,3 +1,5 @@
+> This project is currently in beta and APIs are subject to change.
+
 <p align="center">
   <a href="http://ant.design">
     <img height="200" src="https://gw.alipayobjects.com/zos/rmsportal/NNLMXfSoatfMpmTEmNsG.svg">
@@ -37,8 +39,8 @@ export default Demo;
 ```
 
 ## Documentation
-[Getting Start](docs/en-us/getting-start.md)
-[Development](docs/en-us/development.md)
+- [Getting Start](docs/en-us/getting-start.md)
+- [Development](docs/en-us/development.md)
 
 ## Development
 
