@@ -19,7 +19,7 @@
 
 [react-sketchapp](https://github.com/airbnb/react-sketchapp) is an awesome solution whitch can render React components to Sketch, and antd-sketchapp is an React-sketchapp-based implementation of [ant-design](https://github.com/ant-design/ant-design).
 
-![Demo](https://lark.alipay.com/api/filetransfer?url=https%3A%2F%2Fprivate-alipayobjects.alipay.com%2Falipay-rmsdeploy-image%2Fskylark%2Fgif%2F6cdafaec-626a-49d0-81da-7e3e337c8fa8.gif)
+![Demo](https://user-images.githubusercontent.com/2953176/36887382-e9205fa4-1e2b-11e8-937b-295d306dce5b.gif)
 
 ## Install
 
