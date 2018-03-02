@@ -28,7 +28,7 @@
 
 ### Schematic
 
-! [structure](https://gw.alipayobjects.com/zos/rmsportal/LtwAZWicJsrfoNQjoyGq.svg)
+![structure](https://gw.alipayobjects.com/zos/rmsportal/LtwAZWicJsrfoNQjoyGq.svg)
 
 ### basic concept
 
