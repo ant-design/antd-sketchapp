@@ -26,17 +26,20 @@
 - HISTORY.md
 - README.md
 
+
 ### Schematic
 
 ![structure](https://gw.alipayobjects.com/zos/rmsportal/LtwAZWicJsrfoNQjoyGq.svg)
 
-### basic concept
+
+### Basic Concept
 
 Relying on the ability of React Sketch.app to build UIs from React in Sketch, we implemented a UI library based on the Ant Design language and built the Ant Design UI in Sketch.
 
 As we get rich in components, we'll gradually cover all the Ant Design components, and if you want to design your own system with the design language Ant Design, you'll be able to generate it in the near future by a visually configurable code system, because the code has the logic and data capabilities, so the efficiency will be greatly improved.
 
 At present, we have realized the most basic layout components Grid, as well as complex commonly used Table, Icon and other components, the entire structural system more perfect, the theme of the configuration is also built, but we also need to gradually complement the remaining other components to enrich our component library .
+
 
 ### Use directly
 
@@ -69,18 +72,18 @@ export const renderButton = renderButton;
 
 Then specify the command in `manifest.json`, you can click on the command to create the Button.
 
-```json
+```js
 {
-  "name": "antd-sketchapp",
-  "compatibleVersion": 3,
-  "bundleVersion": 1,
-  "commands": [
-    {
-      "name": "Button",
-      "identifier": "Button",
-      "script": "./demo.js",
-      "handler": "renderButton"
-    },
+  "name": "antd-sketchapp",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "Button",
+      "identifier": "Button",
+      "script": "./demo.js",
+      "handler": "renderButton"
+    },
 ```
 
 ### Learn more plugins development
