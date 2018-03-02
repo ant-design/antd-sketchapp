@@ -1,0 +1,67 @@
+{
+  "name": "antd-sketchapp",
+  "version": "0.0.1",
+  "engines": {
+    "sketch": ">=3.0"
+  },
+  "main": "lib/index.js",
+  "skpm": {
+    "name": "antd-transformer",
+    "manifest": "src/manifest.json",
+    "main": "plugin.sketchplugin"
+  },
+  "scripts": {
+    "build:lib": "./node_modules/.bin/babel ./src -d lib",
+    "build:index": "./node_modules/.bin/babel ./index.js -d lib",
+    "build": "rm -rf ./lib && npm run build:index && npm run build:lib",
+    "reinstall": "rm -rf node_modules && tnpm install",
+    "precommit": "npm run ci",
+    "ci": "npm run lint",
+    "link": "skpm-link .",
+    "lint": "./node_modules/.bin/eslint ./src/** --ext .js",
+    "build:package": "NODE_ENV=production skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.2.0",
+    "babel-cli": "^6.18.0",
+    "babel-eslint": "^8.0.1",
+    "babel-jest": "^19.0.0",
+    "babel-plugin-css-modules-transform": "^1.2.7",
+    "babel-plugin-import": "^1.2.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "cheerio": "^1.0.0-rc.2",
+    "esformatter": "^0.10.0",
+    "esformatter-jsx": "^8.0.1",
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb": "^16.0.0",
+    "eslint-plugin-babel": "^4.0.0",
+    "eslint-plugin-compat": "^2.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^6.0.0",
+    "eslint-plugin-markdown": "^1.0.0-beta.6",
+    "eslint-plugin-react": "^7.0.1"
+  },
+  "dependencies": {
+    "antd": "^2.13.10",
+    "deepmerge": "^2.0.1",
+    "less": "^2.7.3",
+    "prop-types": "^15.5.8",
+    "react": "^15.4.2",
+    "react-sketchapp-compatible": "^1.1.1",
+    "react-test-renderer": "^15.4.2",
+    "sketchapp-json-plugin": "^0.1.2",
+    "tinycolor2": "^1.4.1"
+  },
+  "files": [
+    "lib",
+    "src"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "title": false,
+  "footer": false,
+  "checkable": false,
+  "bordered": false,
+  "expandable": false,
+  "size": "default",
+  "widthValue": 600,
+  "columns": [
+    {
+      "title": "foo",
+      "dataIndex": "A",
+      "key": "A",
+      "style": { "flex": 20, "textAlign": "start" }
+    },
+    {
+      "title": "foo",
+      "dataIndex": "B",
+      "key": "B",
+      "style": { "flex": 20, "textAlign": "start" }
+    },
+    {
+      "title": "foo",
+      "dataIndex": "C",
+      "key": "C",
+      "style": { "flex": 20, "textAlign": "start" }
+    },
+    {
+      "title": "foo",
+      "dataIndex": "D",
+      "key": "D",
+      "style": { "flex": 20, "textAlign": "start" }
+    },
+    {
+      "title": "foo",
+      "dataIndex": "E",
+      "key": "E",
+      "style": { "flex": 20, "textAlign": "start" }
+    }
+  ],
+  "dataSource": [
+    {
+      "A": { "content": "bar", "style": { "textAlign": "start" } },
+      "B": { "content": "bar", "style": { "textAlign": "start" } },
+      "C": { "content": "bar", "style": { "textAlign": "start" } },
+      "D": { "content": "bar", "style": { "textAlign": "start" } },
+      "E": { "content": "bar", "style": { "textAlign": "start" } }
+    },
+    {
+      "A": { "content": "bar", "style": { "textAlign": "start" } },
+      "B": { "content": "bar", "style": { "textAlign": "start" } },
+      "C": { "content": "bar", "style": { "textAlign": "start" } },
+      "D": { "content": "bar", "style": { "textAlign": "start" } },
+      "E": { "content": "bar", "style": { "textAlign": "start" } }
+    },
+    {
+      "A": { "content": "bar", "style": { "textAlign": "start" } },
+      "B": { "content": "bar", "style": { "textAlign": "start" } },
+      "C": { "content": "bar", "style": { "textAlign": "start" } },
+      "D": { "content": "bar", "style": { "textAlign": "start" } },
+      "E": { "content": "bar", "style": { "textAlign": "start" } }
+    },
+    {
+      "A": { "content": "bar", "style": { "textAlign": "start" } },
+      "B": { "content": "bar", "style": { "textAlign": "start" } },
+      "C": { "content": "bar", "style": { "textAlign": "start" } },
+      "D": { "content": "bar", "style": { "textAlign": "start" } },
+      "E": { "content": "bar", "style": { "textAlign": "start" } }
+    }
+  ]
+}

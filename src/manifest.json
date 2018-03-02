@@ -1,0 +1,54 @@
+{
+  "name": "antd-sketchapp",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "Pagination",
+      "identifier": "Pagination",
+      "script": "./demo.js",
+      "handler": "Pagination"
+    },
+    {
+      "name": "Table",
+      "identifier": "Table",
+      "script": "./demo.js",
+      "handler": "Table"
+    },
+    {
+      "name": "Button",
+      "identifier": "Button",
+      "script": "./demo.js",
+      "handler": "Button"
+    },
+    {
+      "name": "Checkbox",
+      "identifier": "Checkbox",
+      "script": "./demo.js",
+      "handler": "Checkbox"
+    },
+    {
+      "name": "Grid",
+      "identifier": "Grid",
+      "script": "./demo.js",
+      "handler": "Grid"
+    },
+    {
+      "name": "Icon",
+      "identifier": "Icon",
+      "script": "./demo.js",
+      "handler": "Icon"
+    }
+  ],
+  "menu": {
+    "title": "antd-sketchapp",
+    "items": [
+      "Button",
+      "Checkbox",
+      "Pagination",
+      "Table",
+      "Grid",
+      "Icon"
+    ]
+  }
+}
