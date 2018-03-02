@@ -19,6 +19,8 @@
 
 [React Sketch.app](https://github.com/airbnb/react-sketchapp) is a awesome solution whitch can use React in Sketch, and antd-sketchapp is a Ant Design UI library for React Sketch.app.
 
+![table](https://gw.alipayobjects.com/zos/rmsportal/aCthUVWUTQEmhdzamVLB.png)
+
 ## Install
 
 ```bash
