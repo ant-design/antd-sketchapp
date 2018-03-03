@@ -50,7 +50,6 @@
     "eslint-plugin-react": "^7.0.1"
   },
   "dependencies": {
-    "antd": "^2.13.10",
     "deepmerge": "^2.0.1",
     "less": "^2.7.3",
     "prop-types": "^15.5.8",
