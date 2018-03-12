@@ -7,6 +7,7 @@ import PaginationDemo from './components/Pagination/demo';
 import TableDemo from './components/Table/demo';
 import GridDemo from './components/Grid/demo';
 import IconDemo from './components/Icon/demo';
+import ListDemo from './components/List/demo';
 
 const renderDemo = (name, Component) => {
   return () => {
@@ -30,3 +31,4 @@ export const Pagination = renderDemo('Pagination', PaginationDemo);
 export const Table = renderDemo('Table', TableDemo);
 export const Grid = renderDemo('Grid', GridDemo);
 export const Icon = renderDemo('Icon', IconDemo);
+export const List = renderDemo('ListDemo', ListDemo);

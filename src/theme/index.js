@@ -116,4 +116,14 @@ export const button = {
 };
 theme.button = button;
 
+// list
+export const list = {
+  borderRadius: 4,
+  defaultPadding: 12,
+  fontSize: 14,
+  lineHeight: 21,
+  fontColor: colors.text,
+};
+theme.list = list;
+
 export default theme;

@@ -38,6 +38,12 @@
       "identifier": "Icon",
       "script": "./demo.js",
       "handler": "Icon"
+    },
+    {
+      "name": "List",
+      "identifier": "List",
+      "script": "./demo.js",
+      "handler": "List"
     }
   ],
   "menu": {
@@ -48,7 +54,8 @@
       "Pagination",
       "Table",
       "Grid",
-      "Icon"
+      "Icon",
+      "List"
     ]
   }
 }
