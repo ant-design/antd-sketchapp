@@ -9,6 +9,7 @@ Before this part, make sure you have read [getting start](getting-start.md)
 1. run `clone git@github.com:ant-design/antd-sketchapp.git` in cli
 2. run `npm i` in cli
 3. run `npm run watch` in cli to watch source code changes
+3. run `npm run link` in cli to link current plugin to specific folder
 4. Now you can find complete sketch-plugin in path `/plugin.sketchplugin`
 5. Open Sketch.app and find the plugin called 'antd-sketchapp'
 6. Have fun 😁

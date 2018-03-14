@@ -51,6 +51,7 @@ $ git clone git@github.com:ant-design/antd-sketchapp.git
 $ cd antd-sketchapp
 $ npm install
 $ npm run watch
+$ npm run link
 ```
 
 then open your Sketch and you can find commands in Plugins on Sketch toolbar. [more](docs/development.md)
@@ -74,7 +75,7 @@ then open your Sketch and you can find commands in Plugins on Sketch toolbar. [m
 - [ ] Dropdown 下拉菜单
 - [ ] Menu 导航菜单
 - [x] Pagination 分页
-- [ ] Steps步骤条
+- [ ] Steps 步骤条
 
 #### Data Entry
 
