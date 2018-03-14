@@ -86,7 +86,7 @@ Then specify the command in `manifest.json`, you can click on the command to cre
     },
 ```
 
-### Learn more plugins development
+### Learn more
 
-- [sketch plug-in community](http://sketchplugins.com/)
-- [sketch developer](http://developer.sketchapp.com/)
+- [Sketch Developers Community](http://sketchplugins.com/)
+- [Extending Sketch](http://developer.sketchapp.com/)
