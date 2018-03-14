@@ -17,7 +17,7 @@
 
 ## What is it?
 
-[react-sketchapp](https://github.com/airbnb/react-sketchapp) is an awesome solution whitch can render React components to Sketch, and antd-sketchapp is an React-sketchapp-based implementation of [ant-design](https://github.com/ant-design/ant-design).
+[react-sketchapp](https://github.com/airbnb/react-sketchapp) is an awesome solution which can render React components to Sketch, and antd-sketchapp is an React-sketchapp-based implementation of [ant-design](https://github.com/ant-design/ant-design).
 
 ![Demo](https://user-images.githubusercontent.com/2953176/36887382-e9205fa4-1e2b-11e8-937b-295d306dce5b.gif)
 
