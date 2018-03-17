@@ -5,6 +5,13 @@
     "sketch": ">=3.0"
   },
   "main": "lib/index.js",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/ant-design/antd-sketchapp"
+  },
+  "bugs": {
+    "url": "https://github.com/ant-design/antd-sketchapp/issues"
+  },
   "skpm": {
     "name": "antd-transformer",
     "manifest": "src/manifest.json",
