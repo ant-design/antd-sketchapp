@@ -100,7 +100,7 @@ const Table = (props) => {
   );
 
   /* eslint-disable */
-  const hasFooter = footer != '0';
+  const hasFooter = !!footer;
   /* eslint-enable */
 
   return (
