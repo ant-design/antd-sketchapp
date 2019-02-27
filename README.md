@@ -13,7 +13,7 @@
 
 [![npm package](https://img.shields.io/npm/v/antd-sketchapp.svg?style=flat-square)](https://www.npmjs.org/package/antd-sketchapp)
 [![NPM downloads](http://img.shields.io/npm/dm/antd-sketchapp.svg?style=flat-square)](https://npmjs.org/package/antd-sketchapp)
-[![Join the chat at https://gitter.im/ant-design/antd-sketchapp](https://img.shields.io/gitter/room/ant-design/antd-sketchapp.svg?style=flat-square)](https://gitter.im/ant-design/antd-sketchapp?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/ant-design/antd-sketchapp](https://img.shields.io/gitter/room/ant-design/antd-sketchapp.svg?style=flat-square)](https://gitter.im/ant-design/antd-sketchapp?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Greenkeeper badge](https://badges.greenkeeper.io/ant-design/antd-sketchapp.svg)](https://greenkeeper.io/)
 
 ## What is it?
 
