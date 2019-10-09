@@ -45,7 +45,7 @@
     "babel-preset-react": "^6.16.0",
     "babel-preset-stage-0": "^6.16.0",
     "cheerio": "^1.0.0-rc.2",
-    "esformatter": "^0.10.0",
+    "esformatter": "^0.11.1",
     "esformatter-jsx": "^8.0.1",
     "eslint": "^4.8.0",
     "eslint-config-airbnb": "^16.0.0",
