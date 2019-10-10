@@ -47,7 +47,7 @@
     "cheerio": "^1.0.0-rc.2",
     "esformatter": "^0.11.1",
     "esformatter-jsx": "^8.0.1",
-    "eslint": "^4.8.0",
+    "eslint": "^5.16.0",
     "eslint-config-airbnb": "^16.0.0",
     "eslint-plugin-babel": "^4.0.0",
     "eslint-plugin-compat": "^2.1.0",
