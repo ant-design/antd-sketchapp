@@ -38,14 +38,14 @@ export const normalStyle = StyleSheet.create({
   },
   tdText: {
     // textAlign: 'left',
-    fontWeight: table.tdFontWeight,
+    fontWeight: String(table.tdFontWeight),
     color: table.fontColor,
     fontSize: table.fontSize,
     fontFamily: 'PingFang SC',
     lineHeight: table.lineHeight,
   },
   thText: {
-    fontWeight: table.thFontWeight,
+    fontWeight: String(table.thFontWeight),
     color: table.thFontColor,
     fontFamily: 'PingFang SC',
     lineHeight: table.lineHeight,
