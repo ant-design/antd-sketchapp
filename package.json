@@ -32,7 +32,7 @@
     "prepublish": "npm run build"
   },
   "devDependencies": {
-    "@skpm/builder": "^0.2.0",
+    "@skpm/builder": "^0.7.7",
     "babel-cli": "^6.18.0",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^20.0.3",
