@@ -3,9 +3,9 @@
 /* eslint-disable */
 import React from 'react';
 import { Svg } from 'react-sketchapp';
-const {Path} = Svg;
+const { Path, default: SvgContainer } = Svg;
 export default (props) => (
-  <Svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" name="solution1" width={ props.width || 16 } height={ props.height || 16 }
+  <SvgContainer class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" name="solution1" width={ props.width || 16 } height={ props.height || 16 }
     fill={ props.fill || "#666" }>
     <Path d="M958.8 916.8c-12.6-66.6-58.5-119.9-118.4-144.1 35.6-23.7 59.1-64.1 59.1-110 0-72.8-59.2-132-132-132s-132 59.2-132 132c0 45.8 23.5 86.3 59.1 110-59.9 24.2-105.8 77.6-118.4 144.1-3.7 19.5 9.1 38.4 28.7 42.1 19.5 3.7 38.4-9.1 42.1-28.7 11-57.8 61.7-99.7 120.6-99.7 58.9 0 109.7 41.9 120.6 99.7 3.3 17.3 18.4 29.3 35.3 29.3 2.2 0 4.5-0.2 6.7-0.6 19.5-3.8 32.3-22.6 28.6-42.1zM767.5 602.7c33.1 0 60 26.9 60 60s-26.9 60-60 60-60-26.9-60-60 26.9-60 60-60z"
       p-id="2062" />
@@ -13,5 +13,5 @@ export default (props) => (
       p-id="2063" />
     <Path d="M228.5 328h312c19.9 0 36-16.1 36-36s-16.1-36-36-36h-312c-19.9 0-36 16.1-36 36s16.1 36 36 36zM412.5 448h-184c-19.9 0-36 16.1-36 36s16.1 36 36 36h184c19.9 0 36-16.1 36-36s-16.1-36-36-36zM412.5 640h-184c-19.9 0-36 16.1-36 36s16.1 36 36 36h184c19.9 0 36-16.1 36-36s-16.1-36-36-36z"
       p-id="2064" />
-  </Svg>
+  </SvgContainer>
 )

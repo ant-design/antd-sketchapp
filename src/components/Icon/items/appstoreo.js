@@ -3,11 +3,11 @@
 /* eslint-disable */
 import React from 'react';
 import { Svg } from 'react-sketchapp';
-const {Path} = Svg;
+const { Path, default: SvgContainer } = Svg;
 export default (props) => (
-  <Svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" name="appstore-o" width={ props.width || 16 } height={ props.height || 16 }
+  <SvgContainer class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" name="appstore-o" width={ props.width || 16 } height={ props.height || 16 }
     fill={ props.fill || "#666" }>
     <Path d="M398 136v262H136V136h262m0-72H136c-39.8 0-72 32.2-72 72v262c0 39.8 32.2 72 72 72h262c39.8 0 72-32.2 72-72V136c0-39.8-32.2-72-72-72zM888 136v262H626V136h262m0-72H626c-39.8 0-72 32.2-72 72v262c0 39.8 32.2 72 72 72h262c39.8 0 72-32.2 72-72V136c0-39.8-32.2-72-72-72zM398 626v262H136V626h262m0-72H136c-39.8 0-72 32.2-72 72v262c0 39.8 32.2 72 72 72h262c39.8 0 72-32.2 72-72V626c0-39.8-32.2-72-72-72zM888 626v262H626V626h262m0-72H626c-39.8 0-72 32.2-72 72v262c0 39.8 32.2 72 72 72h262c39.8 0 72-32.2 72-72V626c0-39.8-32.2-72-72-72z"
       p-id="2214" />
-  </Svg>
+  </SvgContainer>
 )
