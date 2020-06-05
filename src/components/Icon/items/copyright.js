@@ -3,11 +3,11 @@
 /* eslint-disable */
 import React from 'react';
 import { Svg } from 'react-sketchapp';
-const {Path} = Svg;
+const { Path, default: SvgContainer } = Svg;
 export default (props) => (
-  <Svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" name="copyright" width={ props.width || 16 } height={ props.height || 16 }
+  <SvgContainer class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" name="copyright" width={ props.width || 16 } height={ props.height || 16 }
     fill={ props.fill || "#666" }>
     <Path d="M517.6 720.1c-52.8 0-93.4-19.2-120.8-55.7-28.4-36.5-41.6-87.1-41.6-150.9s14.2-114.5 42.6-151.9c29.4-38.5 70-57.7 120.8-57.7 41.6 0 75.1 9.1 101.5 29.4 25.4 20.3 41.6 50.6 48.7 91.2H749c-9.1-63.8-33.5-111.4-74.1-142.8-39.6-30.4-91.3-45.6-156.3-45.6-78.1 0-140 27.3-184.7 83.1-41.6 50.5-61.9 115.3-61.9 195.3s20.3 144.8 61.9 194.5c43.6 52.7 104.5 79 183.7 79 64.9 0 116.7-17.2 156.3-50.6 40.6-34.4 66-86.1 78.1-152.9h-81.2c-12.2 90.1-63.9 135.6-153.2 135.6zM512 0C229.2 0 0 229.2 0 512s229.2 512 512 512 512-229.2 512-512S794.8 0 512 0z m0 952C269 952 72 755 72 512S269 72 512 72s440 197 440 440-197 440-440 440z"
       p-id="2536" />
-  </Svg>
+  </SvgContainer>
 )

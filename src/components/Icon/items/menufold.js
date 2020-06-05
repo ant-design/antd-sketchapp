@@ -3,11 +3,11 @@
 /* eslint-disable */
 import React from 'react';
 import { Svg } from 'react-sketchapp';
-const {Path} = Svg;
+const { Path, default: SvgContainer } = Svg;
 export default (props) => (
-  <Svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" name="menu-fold" width={ props.width || 16 } height={ props.height || 16 }
+  <SvgContainer class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" name="menu-fold" width={ props.width || 16 } height={ props.height || 16 }
     fill={ props.fill || "#666" }>
     <Path d="M112 224h800c26.5 0 48-21.5 48-48s-21.5-48-48-48H112c-26.5 0-48 21.5-48 48s21.5 48 48 48zM112 560h480c26.5 0 48-21.5 48-48s-21.5-48-48-48H112c-26.5 0-48 21.5-48 48s21.5 48 48 48zM781.3 355.6c-1.5-1.3-3.3-2-5.3-2-4.4 0-8 3.6-8 8v300.3c0 1.9 0.7 3.8 2 5.3 2.9 3.3 8 3.7 11.3 0.8l165.1-144c0.5-0.5 1.1-1 1.5-1.5 5.8-6.7 5.1-16.8-1.5-22.6L781.3 355.6zM912 800H112c-26.5 0-48 21.5-48 48s21.5 48 48 48h800c26.5 0 48-21.5 48-48s-21.5-48-48-48z"
       p-id="1737" />
-  </Svg>
+  </SvgContainer>
 )

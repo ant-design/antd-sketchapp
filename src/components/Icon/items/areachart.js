@@ -3,11 +3,11 @@
 /* eslint-disable */
 import React from 'react';
 import { Svg } from 'react-sketchapp';
-const {Path} = Svg;
+const { Path, default: SvgContainer } = Svg;
 export default (props) => (
-  <Svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" name="areachart" width={ props.width || 16 } height={ props.height || 16 }
+  <SvgContainer class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" name="areachart" width={ props.width || 16 } height={ props.height || 16 }
     fill={ props.fill || "#666" }>
     <Path d="M923 960 99 960c-19.9 0-36-16.1-36-36L63 99c0-19.9 16.1-36 36-36s36 16.1 36 36l0 789 788 0c19.9 0 36 16.1 36 36S942.9 960 923 960zM192.5 799.8 309.2 591c5.4-9.7 17.4-13.5 27.4-8.9l111.2 51.7L566.3 463c6-8.7 17.6-11.6 27-6.8L702.8 512l160.3-251.2c9.3-14.6 31.9-8 31.9 9.3l0 520.1c0 21.3-17.3 38.6-38.6 38.6l-646 0C195.4 828.9 185.8 813.1 192.5 799.8z"
       p-id="7184" />
-  </Svg>
+  </SvgContainer>
 )

@@ -3,11 +3,11 @@
 /* eslint-disable */
 import React from 'react';
 import { Svg } from 'react-sketchapp';
-const {Path} = Svg;
+const { Path, default: SvgContainer } = Svg;
 export default (props) => (
-  <Svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" name="barschart" width={ props.width || 16 } height={ props.height || 16 }
+  <SvgContainer class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" name="barschart" width={ props.width || 16 } height={ props.height || 16 }
     fill={ props.fill || "#666" }>
     <Path d="M202.6 166l0 696c0 19.9-16.1 36-36 36l0 0c-19.9 0-36-16.1-36-36L130.6 166c0-19.9 16.1-36 36-36l0 0C186.5 130 202.6 146.1 202.6 166zM166.6 826l694 0c19.9 0 36 16.1 36 36l0 0c0 19.9-16.1 36-36 36l-694 0c-19.9 0-36-16.1-36-36l0 0C130.6 842.1 146.7 826 166.6 826zM393.8 359l0 371c0 19.9-16.1 36-36 36l0 0c-19.9 0-36-16.1-36-36L321.8 359c0-19.9 16.1-36 36-36l0 0C377.7 323 393.8 339.1 393.8 359zM777.3 229l0 501c0 19.9-16.1 36-36 36l0 0c-19.9 0-36-16.1-36-36L705.3 229c0-19.9 16.1-36 36-36l0 0C761.2 193 777.3 209.1 777.3 229zM584.6 485l0 245c0 19.9-16.1 36-36 36l0 0c-19.9 0-36-16.1-36-36L512.6 485c0-19.9 16.1-36 36-36l0 0C568.4 449 584.6 465.1 584.6 485z"
       p-id="7706" />
-  </Svg>
+  </SvgContainer>
 )

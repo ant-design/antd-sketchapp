@@ -3,9 +3,9 @@
 /* eslint-disable */
 import React from 'react';
 import { Svg } from 'react-sketchapp';
-const {Path} = Svg;
+const { Path, default: SvgContainer } = Svg;
 export default (props) => (
-  <Svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" name="contacts" width={ props.width || 16 } height={ props.height || 16 }
+  <SvgContainer class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" name="contacts" width={ props.width || 16 } height={ props.height || 16 }
     fill={ props.fill || "#666" }>
     <Path d="M256 692c0-19.9-16.1-36-36-36H100c-19.9 0-36 16.1-36 36s16.1 36 36 36h120c19.9 0 36-16.1 36-36zM100 370h120c19.9 0 36-16.1 36-36s-16.1-36-36-36H100c-19.9 0-36 16.1-36 36s16.1 36 36 36z"
       p-id="2093" />
@@ -15,5 +15,5 @@ export default (props) => (
       p-id="2095" />
     <Path d="M764.2 768c-17 0-32.1-12-35.3-29.3-14-73.4-78.4-126.7-153.3-126.7s-139.3 53.3-153.3 126.7C419 756 403.9 768 387 768c-2.2 0-4.5-0.2-6.7-0.6-19.5-3.7-32.4-22.5-28.7-42.1C371.9 617.9 466.1 540 575.6 540c109.4 0 203.7 77.9 224 185.3 3.7 19.5-9.1 38.4-28.7 42.1-2.2 0.4-4.5 0.6-6.7 0.6z"
       p-id="2096" />
-  </Svg>
+  </SvgContainer>
 )
